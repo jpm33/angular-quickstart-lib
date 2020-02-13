@@ -1,6 +1,6 @@
 {
   "name": "quickstart-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library QuickStart package.json from the documentation, supplemented with testing support",
   "main": "./bundles/quickstart-lib.umd.js",
   "module": "./quickstart-lib.es5.js",
@@ -8,7 +8,10 @@
   "typings": "./quickstart-lib.d.ts",
   "author": "",
   "license": "MIT",
-  "repository": {},
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/jpm33/angular-quickstart-lib.git"
+  },
   "engines": {
     "node": ">= 6.9.0",
     "npm": ">= 3.0.0"
